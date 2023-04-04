@@ -1,0 +1,5 @@
+{
+    "Resolved issue": "https://github.com/FThompson/NetflixController/issues/16",
+    "How to fix extensions": "https://superuser.com/questions/848664/can-i-disable-chromes-extension-content-verification",
+    "v3 migration checklist": "https://developer.chrome.com/docs/extensions/mv3/mv3-migration-checklist/"
+}

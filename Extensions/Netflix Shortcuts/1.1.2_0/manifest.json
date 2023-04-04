@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "bridge.js" ],
+      "matches": [ "https://*.netflix.com/*", "https://netflix.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "script-src": "'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "https://*.netflix.com/*", "https://netflix.com/*" ],
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlvCpPBP+65z0HfJLT0ECNdf00P2bEaB6Xui+FbuhBYHjh9Tju4reVBPiAidmJOvWvTYZX4+6EZB3fkc43fDAo5mietFm120n+Th4/dbCaqcVd/aBl2XyNB8MH232saUS3taWmN/6Ik1nodMUM5SZfYj9ICYmj1YBm5EdkV0Sk7vCrq4QZmIb78gpugYINuuosKDcUmM3FeVUq+Mow4wQ8EK94dJEP4zLDafDL/FB9Pu/lAY0PXYMg0n60ZamMzX1txyr4qSEX9JH2NzQ9SlCSPFOOgUDrUmcMpxpjaZdV8aqqz39e9cX/ihKFLmdWxl4dJ72GIvvNmRrRlx3UCM9MQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.netflix.com/*", "https://netflix.com/*" ],
+      "resources": [ "netflix-keyboard-shortcuts.js", "netflix-keyboard-shortcuts.js.map", "injected.css" ]
+   } ]
+}
