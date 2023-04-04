@@ -1,0 +1,47 @@
+{
+    "How to Install OpenIV": {
+        "Video": "https://www.youtube.com/watch?v=pH8RmVznXcs",
+        "What is this?": "OpenIV is a Mod manager that allows to mod Rockstar games",
+        "Download": "https://openiv.com"
+    },
+    "reshade": {
+        "How to use": "https://www.sportskeeda.com/gta/how-use-reshade-gta-5-mods",
+        "Download": "https://reshade.me",
+        "What is this?": "Reshades a couple of shaders"
+    },
+    "NaturalVision Evolved": {
+        "Download": "https://www.razedmods.com/gta-v",
+        "In Game Use": "Left Shift + Enter",
+        "What is this?": "A pack of mods and visual upgrades"
+    },
+    "Script Hook V": {
+        "Download": "http://www.dev-c.com/gtav/",
+        "script hook .net": "https://www.gta5-mods.com/tools/scripthookv-net",
+        "In Game Use": "f4"
+    },
+    "Menyoo": {
+        "Download": "https://www.gta5-mods.com/scripts/menyoo-pc-sp",
+        "In Game use": "f8",
+        "What is this?": "Mod menu"
+    },
+    "AddonPeds": {
+        "Download": "https://www.gta5-mods.com/scripts/addonpeds-asi-pedselector",
+        "Video": "https://www.youtube.com/watch?v=8dkj21PoEhU",
+        "What is this?": "add characters",
+        "In Game use": "L"
+    },
+    "Addon Cars": {
+        "Video": "https://www.youtube.com/watch?v=zAz7UyfzmyU",
+        "Add Template": "https://www.youtube.com/watch?v=sWGl_xWz3xI",
+        "Add Template2": "https://www.youtube.com/watch?v=ieNHHf1mRx0"
+    },
+    "Simple Trainer": {
+        "Download": "https://www.gta5-mods.com/scripts/simple-trainer-for-gtav",
+        "Video": "https://www.youtube.com/watch?v=hucIBivdQFk",
+        "In Game Use": "f3"
+    },
+    "Add Music to radio": {
+        "Video": "https://www.youtube.com/watch?v=kb_MK58Higo"
+    },
+    "Help Video": "https://www.youtube.com/watch?v=N0ovURiaTtE"
+}
