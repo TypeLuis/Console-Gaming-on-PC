@@ -21,7 +21,6 @@ ARTICLES THAT HELPED
 
 */
 
-
 #Include, PATH/TO/XInput.ahk
 
 
@@ -124,15 +123,6 @@ Pressed_Button(value) {
 			s .= (s ? "`n" : "") name
     }
     return s
-}
-return
-
-test(btn_Num){
-    if (btn_Num = 264) {
-
-        Msgbox %btn_Num% ; shows what number is the button correlated with
-    }
-    return
 }
 return
 
