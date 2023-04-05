@@ -58,8 +58,6 @@ Loop {
           
             if (btn = Floor(intparse(LB) + intparse(RB) + intparse(BACK)) ) { ; adds LB + RB + BACK buttons to create an auto close hotkey 
 
-                ; send, ^!{F4} ; closes application {ctrl alt F4}
-
                 CloseActiveProcess()
 
             }
@@ -190,7 +188,6 @@ CloseActiveProcess()
     WinGet, ActiveWinPID, PID, %ActiveWindow%
     Process, Close, %ActiveWinPID%
     sleep 1000
-    ; return ActiveWinPID
 }
 
 
@@ -198,9 +195,9 @@ OverwatchLogin(btn, btn_Num) {
     uid = "Username"
     pw = "Password"
     if (btn = btn_Num){
-        Process, Exist, Overwatch Launcher.exe
+        Process, Exist, Overwatch.exe
         
-        If ErrorLevel = 0 
+        If ErrorLevel != 0 
             {
                 Send, %uid%{TAB}
                 sleep 100
@@ -216,7 +213,6 @@ FlashFullScreen(btn, btn_num, application, key1, key2){
         Process, Exist, %application%
 
         if ErrorLevel != 0
-            ; Msgbox, klk
             {
                 Send, {%key1% down}
                 sleep 100
