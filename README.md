@@ -1,6 +1,13 @@
 # Console-Gaming-on-PC
 
+# Jump To
 
+**Places to jump to**
+
+| main | contents |
+| ----------- | ----------- |
+| [Setting up AutoHotKey](#setting-up-autohotkey) | [copy as path](#copy-as-path),&nbsp; [Xbox_Hotkeys.ahk commands](#xbox_hotkeysahk-commands), &nbsp; [Overwatch](#overwatch)  |
+| [Setting up Steam](#setting-up-steam) | [Controller Companion](#controller-companion), &nbsp; [HOW TO ADD YOUTUBE AND OTHER WEBSITES/APPS TO STEAM](#how-to-add-youtube-and-other-websitesapps-to-steam) |
 
 # Prerequisites
 Before anything, there are some applications that needs to be downloaded. Also, we're going to need to buy a couple of accessories as well in order to make this work.
@@ -159,6 +166,8 @@ Process, Exist, APPLICATION.exe
 
 This commands check if an application is running or not and enter certain code for whichever game (Remove `!` at errorlevel to check if app is not running). For Example in *line 194* If you want to play overwatch without the launcher, you need to login with your email and password, the function in *line 194* automatically enters username and password in game. **You need to change user and password in line 195 & 196**.
 
+### Overwatch
+
 Heres how to find overwatch without launcher
 
 1. Go to file explorer
@@ -175,6 +184,8 @@ To find certain application's name through task manager
 
 Example to find application  
 ![task manager app example](https://i.imgur.com/GLEAQke.png) ![Application name](https://i.imgur.com/TuXY3MQ.png)
+
+[GO TO JUMP TO](#jump-to)
 
 ---
 ---
@@ -228,3 +239,8 @@ To add controller Layout,
 4. follow Layout bellow
 
 ![Youtube Layout](https://i.imgur.com/qVBjYSS.png)
+
+[GO TO JUMP TO](#jump-to)
+
+---
+---
