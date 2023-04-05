@@ -1,5 +1,7 @@
 # Console-Gaming-on-PC
 
+
+
 # Prerequisites
 Before anything, there are some applications that needs to be downloaded. Also, we're going to need to buy a couple of accessories as well in order to make this work.
 
@@ -24,7 +26,10 @@ In the AutoHotKey folder there are two files
 
 Before anything, **in line 24 of Xbox_Hotkeys.ahk, we need to import the file path to XInput.ahk**.
 
-Go to where Xinput.ahk is on windows explorer and <span style="font-size:1.5em;">Hold Shift and right click `XInput.ahk`</span>. You should see an option called `copy as path` like the image below, click option to copy the path.
+#### copy as path
+1. Go to where Xinput.ahk is on windows explorer
+2. <span style="font-size:1.5em;">Hold Shift and right click `XInput.ahk`</span>
+3. You should see an option called `copy as path` like the image below, click option to copy the path  
 
 ![copy as path image](https://i.imgur.com/IDlVQpe.png)
 
@@ -170,3 +175,56 @@ To find certain application's name through task manager
 
 Example to find application  
 ![task manager app example](https://i.imgur.com/GLEAQke.png) ![Application name](https://i.imgur.com/TuXY3MQ.png)
+
+---
+---
+
+# Setting up Steam
+
+First, is Steam isn't installed, click the [link](https://store.steampowered.com/about/) to install, this [link](https://store.steampowered.com/join/) is to sign up. Once the process is done, open steam and login. This is a place where you can purchase games.  
+
+We're going to disable opening steam big picture mode once the home button is pressed on Xbox controller (**unless you're skipping out on using bigbox as frontend**). To disable follow these steps
+
+1. go to steam > settings
+2. go to controllers
+3. click on general controller settings
+4. disable "Guide button focuses on Steam"
+
+![Gif showing to disable big picture](https://i.imgur.com/3o5tY5p.gif)
+
+### Controller Companion
+
+An application worth getting on Steam is controller companion. It allows you to utilize your controller as a mouse and keyboard. Once purchased, these are the settings used for my PC. **Feel free to change how you see fit**
+
+![Companion App Settings](https://i.imgur.com/3oiCfdh.png)
+![Companion Primary binding](https://i.imgur.com/Knz5Z9O.png)
+![Companion Secondary binding](https://i.imgur.com/pxF5uoM.png)
+
+
+## HOW TO ADD YOUTUBE AND OTHER WEBSITES/APPS TO STEAM:
+
+A very cool feature about Steam is that you can add non-steam games and give the application a controller layout that gives controller functionality. With this we can add many applications such as Youtube.
+
+There are two extensions that are used for youtube/tv that are in repository, Youtube for TV and Ad Block. Create a folder on C: drive directory called chrome extension and paste extensions. [copy both as path](#copy-as-path) to follow next steps
+
+1. Go to library and add **Add a Game** > **Add a Non-Steam Game**
+2. add chrome.exe to non-steam game
+3. right click on chrome in library and click **Properties**
+4. change name from chrome to Youtube
+5. Download [Youtube icon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png) and change chrome icon to youtube
+6. Create a folder on C: drive directory called Chrome Extensions and paste extensions in folders
+7. [copy Ad Block and YouTube for TV as path](#copy-as-path)
+8. In Launch options paste this code `--kiosk http://youtube.com/tv chrome.exe --load-extension="AD BLOCK LOCATION","YouTube for TV LOCATION"`
+
+In the code above `--kiosk` makes chrome kiosk mode, `chrome.exe` utilizes chrome, `--load-extension="" adds extension to kiosk`
+
+The reason why Chrome Extension folder needs to be added on C: Drive is because Launch options has a **character limit** so the shorter the directory, the better.  
+
+To add controller Layout, 
+
+1. turn on Xbox controller
+2. right click on Youtube in library and go to **Manage** > **Controller Layout**
+3. click **View Layout**
+4. follow Layout bellow
+
+![Youtube Layout](https://i.imgur.com/qVBjYSS.png)
