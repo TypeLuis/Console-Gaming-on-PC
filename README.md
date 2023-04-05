@@ -20,7 +20,7 @@ Before anything, there are some applications that needs to be downloaded. Also, 
 | [LaunchBox](https://www.launchbox-app.com/download) [BigBox](https://www.launchbox-app.com/premium) | Launchbox is a frontend library for all of your software that helps customize, organize and add as much information to any game/software. Launchbox allows imports from other libraries such as Steam and microsoft to name a few. Launchbox has a premium (BigBox) feature that costs $75 which is recommended to get to simulate a console expierence with your games/software. BigBox allows custom themes to your layout and videos with your game collection showing as a arcade cabinet. You can use your controller to navigate through your game collection and much more. **While it's recommended to buy** if $75 is a steep price it's available at [FileCR](https://filecr.com/windows/launchbox-with-big-box/), Though it's not recommended since this is not official.|
 | [Xbox Controller](https://www.amazon.com/dp/B08DF26MXW/) | Controller for the PC |
 | [Xbox Controller Adapter](https://www.amazon.com/dp/B0785SFKYF) | Adapter that allows user to use controller through bluetooth on PC seamlessly. |
-| [12-25 ft HDMI](https://www.amazon.com/dp/B096ZJBSFS) | HDMI 2.1 to connect to your TV |
+| [15 ft HDMI](https://www.amazon.com/dp/B096ZJBSFS) | HDMI 2.1 to connect to your TV |
 
 ---
 ---
