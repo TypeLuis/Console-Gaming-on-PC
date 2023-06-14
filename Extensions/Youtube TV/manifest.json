@@ -1,0 +1,58 @@
+{
+   "content_scripts": [
+      {
+         "js": [
+            "scripts/basics.js",
+            "scripts/filter_videos.js",
+            "scripts/chapters.js",
+            "scripts/search.js",
+            "node_modules/video.js/dist/video.js"
+         ],
+         "css": [
+            "styles/keyboard.css",
+            "styles/chapter.css"
+         ],
+         "matches": [
+            "*://*.youtube.com/tv*"
+         ]
+      }
+   ],
+   "background": {
+      "service_worker": "bg-loader.js"
+   },
+   "declarative_net_request": {
+      "rule_resources": [
+         {
+            "enabled": true,
+            "id": "ruleset_1",
+            "path": "rules.json"
+         }
+      ]
+   },
+   "description": "Allows https://youtube.com/tv to load YouTube™ TV App from regular browser",
+   "host_permissions": [
+      "*://*.youtube.com/tv*"
+   ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "18": "icons/18.png",
+      "19": "icons/19.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "36": "icons/36.png",
+      "38": "icons/38.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png"
+   },
+   "manifest_version": 3,
+   "name": "YouTube™ for TV",
+   "permissions": [
+      "tabs",
+      "declarativeNetRequest",
+      "storage"
+   ],
+   "short_name": "youtube-for-tv",
+   "version": "1.2.0"
+}

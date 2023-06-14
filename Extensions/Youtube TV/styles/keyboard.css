@@ -1,0 +1,108 @@
+.keyboardContainer {
+    display: none;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.keyboardContainer.active {
+    display: block;
+}
+
+.container {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    word-break: break-word;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key {
+    cursor: pointer;
+    background-color: rgb(104, 104, 255);
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key:hover {
+    opacity: 0.8;
+}
+
+.key:active {
+    background: red;
+}
+
+.delete,
+.shift,
+.space {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.delete {
+    width: 100px;
+}
+
+.shift {
+    width: 70px;
+}
+
+.space {
+    width: 350px;
+    margin-left: 40px;
+}
+
+.textarea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.textarea textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: 2px solid rgb(104, 104, 255);
+    border-radius: 0.5rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.ytlr-progress-bar__ticks {
+    position: relative;
+}
+
+.chapter-container {
+    position: absolute;
+    background: blue;
+    width: 5px;
+    height: 100%;
+    /* left: 10%; */
+
+}
+
+.chapter-name {
+    text-align: center;
+}
+
+/* ytlr-thumbnail-details {
+    background: red;
+    color: blue;
+} */

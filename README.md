@@ -8,6 +8,7 @@
 | ----------- | ----------- |
 | [Setting up AutoHotKey](#setting-up-autohotkey) | [copy as path](#copy-as-path),&nbsp; [Xbox_Hotkeys.ahk commands](#xbox_hotkeysahk-commands), &nbsp; [Overwatch](#overwatch)  |
 | [Setting up Steam](#setting-up-steam) | [Controller Companion](#controller-companion), &nbsp; [HOW TO ADD YOUTUBE AND OTHER WEBSITES/APPS TO STEAM](#how-to-add-youtube-and-other-websitesapps-to-steam) |
+| [Setting up LaunchBox/BigBox](#setting-up-launchboxbigbox) |  |
 
 # Prerequisites
 Before anything, there are some applications that needs to be downloaded. Also, we're going to need to buy a couple of accessories as well in order to make this work.
@@ -225,9 +226,9 @@ There are two extensions that are used for youtube/tv that are in repository, Yo
 5. Download [Youtube icon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png) and change chrome icon to youtube
 6. Create a folder on C: drive directory called Chrome Extensions and paste extensions in folders
 7. [copy Ad Block and YouTube for TV as path](#copy-as-path)
-8. In Launch options paste this code `--kiosk http://youtube.com/tv chrome.exe --load-extension="AD BLOCK LOCATION","YouTube for TV LOCATION"`
+8. In Launch options paste this code `--kiosk http://youtube.com/tv --disable-web-security --load-extension="C:\Chrome Extensions\Ad Block","C:\Chrome Extensions\Youtube TV"`
 
-In the code above `--kiosk` makes chrome kiosk mode, `chrome.exe` utilizes chrome, `--load-extension="" adds extension to kiosk`
+In the code above `--kiosk` makes chrome kiosk mode, `--disable-web-security` allows cross-origin resource sharing , `--load-extension=""` adds extension to kiosk, Alternativly you can use `--profile-directory=Default` to use all current extension
 
 The reason why Chrome Extension folder needs to be added on C: Drive is because Launch options has a **character limit** so the shorter the directory, the better.  
 
@@ -238,9 +239,11 @@ To add controller Layout,
 3. click **View Layout**
 4. follow Layout bellow
 
-![Youtube Layout](https://i.imgur.com/qVBjYSS.png)
+![Youtube Layout](https://i.imgur.com/94qvwG7.png)
 
 [GO TO JUMP TO](#jump-to)
 
 ---
 ---
+
+# Setting up LaunchBox/BigBox
